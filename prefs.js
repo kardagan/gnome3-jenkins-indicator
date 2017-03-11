@@ -309,5 +309,8 @@ function buildPrefsWidget() {
 	// show the frame
 	frame.show_all();
 
+	frame.set_size_request(900,850);
+
+
 	return frame;
 }
